@@ -1,0 +1,11 @@
+EHLO example.com
+MAIL FROM:<edison@example.com>
+RCPT TO:<paul@example.com>
+DATA
+From: edison@example.com
+To: paul@example.com
+Subject: Is this thing on?
+Content-Type: text/plain
+
+You must come here immediately!
+.
